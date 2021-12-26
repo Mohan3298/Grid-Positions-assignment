@@ -39,7 +39,7 @@
     margin-left: 30%;
 }    
 #section_1{
-    background: url('grid & position/image.jpg') fixed repeat-x ;
+    background: url('grid & position/image.jpg') repeat-x ;
     text-align: center;
     padding: 5% 0%;
  
@@ -244,4 +244,56 @@
     color: white;
     text-align: center;
     padding: 3%;
+}
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    html{
+        font-size: 70%;
+    }
+    #left_side_bar{
+        width: 100%;
+        position: relative;
+    }
+
+    #main_bar{
+        position: absolute;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .left_nav_bar{
+        display: grid;
+        grid-template-columns:  24% 24% 24% 24% 24%;
+        justify-content: center;
+        width: 80%;
+        margin: 0% auto; 
+
+   }
+    .left_nav_bar>li{
+        padding-right: 0.5%;
+        font-size: 10px;
+        margin-right: 0.5%; 
+        
+    }
+    .left_nav_bar>li:hover{
+        border-bottom: solid 2px rgb(255, 0, 191);
+        border-top: solid 2px rgb(0, 255, 13);
+        background: rgb(245, 195, 32);
+        color: rgb(85, 228, 228);
+    }
+    #section_1{
+        margin: 0% auto;
+    }
+    #nav_bar2, #positions, #description, #nav_bar3, #detailse1, #skillset, #nav_bar4, #templates, #nav_bar5, #map, #input{
+        width: 90%;
+        margin: 4% auto;
+    }
+    #positions, #description, #detailse1, #skillset, #templates, #input_text{
+        grid-template-columns: 100%;
+    }
+    #message{
+        width: 100%;
+    }
+    #nav_bar2, #nav_bar3, #nav_bar4, #nav_bar5{
+        font-size: 10px;
+    }
+
 }
