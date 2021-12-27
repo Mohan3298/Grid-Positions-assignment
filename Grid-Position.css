@@ -1,0 +1,299 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif ;
+    list-style: none;
+    text-decoration: none;
+}
+#left_side_bar{
+    position: fixed;
+    width: 30%;
+    background: darkslategrey;
+    height: 100%;
+}
+#logo{
+    background: whitesmoke ;
+    margin: 5% 0%;
+    padding: 2%;
+}
+.left_nav_bar{
+    padding-left: 0%;
+    margin-top: 10%;
+    color: white;
+    
+}
+.left_nav_bar>li{
+    padding: 4%;
+    text-align: center;
+    border-bottom: solid 1px #D4e1ec;
+    font-size: 13px;
+}
+.left_nav_bar>li:hover{
+    border-bottom: solid 2px darkorange;
+    border-top: solid 2px darkorange;
+    background: cyan;
+    color: rgb(30, 32, 145);
+}
+#main_bar{
+    width: 70%;
+    margin-left: 30%;
+}    
+#section_1{
+    background: url('grid & position/image.jpg') repeat-x ;
+    text-align: center;
+    padding: 5% 0%;
+ 
+}
+.transparency{
+    background: transparent;
+    color: rgba(243, 203, 203, 0.7);
+    line-height: 30px;
+}
+#read_more{
+    background-color: rgba(0, 255, 0, 0.8);
+    padding: 0.5%;
+    
+}
+#temp{
+    padding: 8%;
+    text-align: center;
+    line-height: 28px;
+}
+#nav_bar2, #nav_bar3, #nav_bar4, #nav_bar5{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+#right_nav_bar{
+    padding-left: 0%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-content: center;
+    text-align: center;
+    border-top: 3px solid darkorange !important;
+}
+#right_nav_bar>li{
+    padding: 8%;   
+    background-color: rgb(226, 143, 41);
+}
+.hidden{
+    display: none;
+}
+#positions{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    width: 80%;
+    margin: 5% auto;
+}
+.employee{
+    margin: 3%;
+}
+#description{
+    display: grid;
+    grid-template-columns: 49% 49%; 
+    justify-content: center;
+    width: 80%;
+    margin: 5% auto;
+    line-height: 25px;
+}
+.detailse{
+    padding: 1%;  
+}
+#right_nav_bar1{
+    padding-left: 0%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-content: center;
+    text-align: center;
+    border-top: 3px solid purple;
+}
+#right_nav_bar1>li{
+    padding: 8%;   
+    background-color: rgb(226, 41, 201);
+}
+#detailse1{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: space-between;
+    margin: 5% auto;
+    width: 80%;
+    color: white;
+}
+.layouts_detailse{
+    padding: 2%;
+    background-color: darkmagenta;
+    margin: 8%;
+}
+#skillset{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin: 0% auto;
+    width: 80%;
+    line-height: 25px;
+}
+.skills2{
+    padding: 4%;
+    color: white;
+}
+.skill2_1{
+    border: 1px solid rgb(233, 211, 15);
+    border-radius: 5px;
+    background-color: rgb(250, 249, 249);
+    text-align: center;
+    font-size: 12px;
+}
+#graphics{
+    width: 90%;
+    background-color: rgb(223, 23, 206);
+    padding: 0.5%;
+}
+#html{
+    width: 75%;
+    background-color: rgb(223, 23, 206);
+    padding: 0.5%;
+}
+#wordpress{
+    width: 66%;
+    background-color: rgb(223, 23, 206);
+    padding: 0.5%;
+}
+#marketing{
+    width: 88%;
+    background-color: rgb(223, 23, 206);
+    padding: 0.5%;
+}
+#right_nav_bar2{
+    padding-left: 0%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-content: space-between;
+    text-align: center;
+    border-top: 3px solid rgb(32, 238, 60);
+}
+#right_nav_bar2>li{
+    padding: 8%;   
+    background-color: rgb(35, 155, 11);
+}
+#nav_bar4{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+#templates{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: space-between;
+    width: 80%;
+    margin: 4% auto;
+    background-color: lightpink;
+}
+.templates1{
+    margin: 2%;
+    padding: 2%;
+    background-color: white;
+}
+#load_button{
+    width: 80%;
+    margin: 3% auto;
+    text-align: center;
+}
+#load_more{
+    border: 1px solid #D4e1ec;
+    padding: 1%;
+    background-color: yellowgreen;
+    font-size: 12px;
+}
+#right_nav_bar3{
+    padding-left: 0%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-content: space-between;
+    text-align: center;
+    border-top: 3px solid rgb(223, 24, 74);
+}
+#right_nav_bar3>li{
+    padding: 8%;   
+    background-color: rgb(155, 11, 95);
+}
+#map{
+    width: 80%;
+    margin: 4% auto; 
+}
+#input{
+    width: 80%;
+    margin: 4% auto;
+}   
+#input_text{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: space-between;
+}
+#send_message_button{
+    background-color: rgb(223, 24, 74);
+    border: 1px solid rgb(223, 24, 74);
+    padding: 1%;
+    color: white;
+}
+#footer_nav{
+    background-color: lemonchiffon;
+    text-align: center;
+    padding: 4%;
+}
+#footer{
+    background-color: rgb(63, 112, 112);
+    color: white;
+    text-align: center;
+    padding: 3%;
+}
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    html{
+        font-size: 70%;
+    }
+    #left_side_bar{
+        width: 100%;
+        position: relative;
+    }
+
+    #main_bar{
+        position: absolute;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .left_nav_bar{
+        display: grid;
+        grid-template-columns:  24% 24% 24% 24% 24%;
+        justify-content: center;
+        width: 80%;
+        margin: 0% auto; 
+
+   }
+    .left_nav_bar>li{
+        padding-right: 0.5%;
+        font-size: 10px;
+        margin-right: 0.5%; 
+        
+    }
+    .left_nav_bar>li:hover{
+        border-bottom: solid 2px rgb(255, 0, 191);
+        border-top: solid 2px rgb(0, 255, 13);
+        background: rgb(245, 195, 32);
+        color: rgb(85, 228, 228);
+    }
+    #section_1{
+        margin: 0% auto;
+    }
+    #nav_bar2, #positions, #description, #nav_bar3, #detailse1, #skillset, #nav_bar4, #templates, #nav_bar5, #map, #input{
+        width: 90%;
+        margin: 4% auto;
+    }
+    #positions, #description, #detailse1, #skillset, #templates, #input_text{
+        grid-template-columns: 100%;
+    }
+    #message{
+        width: 100%;
+    }
+    #nav_bar2, #nav_bar3, #nav_bar4, #nav_bar5{
+        font-size: 10px;
+    }
+
+}
