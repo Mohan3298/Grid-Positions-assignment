@@ -142,6 +142,7 @@
     background-color: rgb(250, 249, 249);
     text-align: center;
     font-size: 12px;
+    box-shadow: inset -2px -3px 8px rgba(0, 255, 0, 0.5), 0px 2px 4px rgba(0, 255, 0, 0.5);
 }
 #graphics{
     width: 90%;
@@ -245,17 +246,17 @@
     text-align: center;
     padding: 3%;
 }
-@media only screen and (min-width: 300px) and (max-width: 768px) {
+@media only screen and (min-width: 300px) and (max-width: 576px) {
     html{
         font-size: 70%;
     }
     #left_side_bar{
         width: 100%;
-        position: relative;
+        position: relative; 
     }
 
     #main_bar{
-        position: absolute;
+        position: absolute; 
         width: 100%;
         margin-left: 0%;
     }
